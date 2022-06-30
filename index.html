@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css, course, learn, resume">
+    <meta name="description" content="Это сайт-резюме на основе базового курса по изучению HTML&CSS">
+    <title>Ramis's resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <div class="image-block">
+                <img src="img/me.jpg" width="200">
+            </div>
+            <div class="info-block">
+                <h1>Рамис Мубараков</h1>
+                <p >Я учусь в <strong>КНИТУ-КАИ имени А.Н.Туполева</strong> на <em>4-ом курсе</em> по направлению <strong>«Программная инженерия»</strong></p>
+                <p>Меня привлекает профессия <em>frontend-разработчика</em>, поэтому я поступил на курс от <strong>Result School</strong></p>
+            </div>
+        </div>
+        <div class="card social-networks">
+            <h2>Список социальных сетей:</h2>
+            <a href="https://vk.com/rmubarakov_17" target="_blank">VK</a>
+            <a href="https://t.me/rmubarakov" target="_blank">Telegram</a>
+            <a href="https://discordapp.com/users/693046045969743912" target="_blank">Discord</a>
+            <a href="https://github.com/Ram1s17" target="_blank">GitHub</a>
+        </div>
+        <div class="card hobbies">
+            <h2>Мои хобби</h2>
+            <ol>
+                <li>Чтение книг</li>
+                <li>Поэзия</li>
+                <li>Рисование</li>
+                <li>Футбол</li>
+            </ol>
+        </div>
+        <div class="card work-experience">
+            <h2>Опыт работы</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ML Kazan</td>
+                        <td>Стажер</td>
+                        <td>осень 2021</td>
+                    </tr>
+                    <tr>
+                        <td>Streamline Consulting</td>
+                        <td>Стажер</td>
+                        <td>август 2022 - сейчас</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div> 
+        <form class="contact">
+            <h2>Связаться со мной</h2>
+            <div>
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите имя">
+            </div>
+            <div>
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" placeholder="Введите email">
+            </div>
+            <div>
+                <label for="message">Ваше сообщение:</label>
+                <br>
+                <textarea id="message" cols="33" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+            <div>
+                <button type="submit">Отправить!</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
